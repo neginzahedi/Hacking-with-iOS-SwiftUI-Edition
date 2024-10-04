@@ -1,0 +1,31 @@
+# Xcode
+DerivedData/
+*.xcworkspace
+xcuserdata/
+*.xcuserstate
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcodeproj/xcshareddata/*
+
+# Swift Package Manager
+.build/
+.swiftpm/
+Package.resolved
+
+# macOS
+*.DS_Store
+
+# Build products
+*.app
+*.ipa
+*.dSYM
+*.dSYM.zip
+
+# Xcode project files
+*.xcuserdata
+*.xcuserstate
+
+# Temporary Files
+*.swp
+*.tmp
